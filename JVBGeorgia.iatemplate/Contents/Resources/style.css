@@ -1,0 +1,86 @@
+/*
+ * Goal #1: make it easy to copy and paste my notes in a formatted manner
+ * to Google Docs without having to format them afterwards.
+ * Copy and Paste is all that is needed.
+ *
+ * LEARNINGS
+ * For iAWriter templates with multiple css files, you will find a css
+ * loading order comment somewhere, typically in the core.css file.
+ * In this template I am only using one style.css file.
+ *
+ * OPEN MYSTERIES
+ * - When you copy and paste formatted text, which section of the CSS file
+ * is used?
+ * - In example templates, I see .mac class but I don't see mac defined anywhere
+ *
+ */
+
+ /* Fonts */
+ @font-face {
+   font-family: "Georgia";
+   font-weight: 400;
+   font-style: normal;
+ }
+
+ @font-face {
+   font-family: "Georgia";
+   font-weight: 400;
+   font-style: italic;
+ }
+
+ @font-face {
+   font-family: "Georgia";
+   font-weight: 600;
+   font-style: normal;
+ }
+
+ @font-face {
+   font-family: "Georgia";
+   font-weight: 600;
+   font-style: italic;
+ }
+
+ @font-face {
+   font-family: "Georgia";
+   font-weight: 700;
+   font-style: normal;
+ }
+
+ @font-face {
+   font-family: "Georgia";
+   font-weight: 700;
+   font-style: italic;
+ }
+
+ /* BASE */
+ html {
+   font-family: "Georgia";
+   font-size: 11pt;
+   color: #cccccc;
+   background-color: #101010;
+ }
+
+ body {
+   font-family: "Georgia";
+   font-size: 11pt;
+   color: #cccccc;
+   background-color: #101010;
+ }
+
+@media print{
+
+  html {
+    font-family: "Georgia";
+    font-size: 11pt;
+    color: #cccccc;
+    background-color: #101010;
+  }
+
+  body {
+    font-family: "Georgia";
+    font-size: 11pt;
+    color: #cccccc;
+    background-color: #101010;
+  }
+
+}
